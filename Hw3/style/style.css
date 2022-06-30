@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    margin-top: 0;
+}
+#avatar
+{
+    padding-top: 50px;
+}
+#spaceToPhoto a
+{
+    text-align: left;
+    border: 0;
+}
+
+.header
+{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: white;
+
+}
+
+.linkPhoto
+{
+    width: 50px;
+    margin: 10px;
+}
+
+h3 
+{
+    font-weight: lighter;
+}
+a{
+    border-bottom: 1px inset black;
+    color: gray;
+}
+.mainInfo
+{
+    color: grey;
+    font-size: 25px;
+}
+
+.tooltip 
+{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  
+.tooltip .tooltiptext 
+{
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color:white;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 5px;
+    
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 105%;
+
+}
+  
+.tooltip:hover .tooltiptext 
+{
+    visibility: visible;
+}
+
+.list-menu{
+    position: relative;
+}
+.list-menu:hover{
+    color:darkg;
+    transition: 1s;
+}
+.list-menu::after{
+    content: '';
+    background: #000;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: -2px;
+    left: 0;
+    transition: 1s;
+}
+.list-menu:hover::after{
+    width: 100%;
+    background: red;
+}

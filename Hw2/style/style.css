@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 1000px;
+}
+.earFirstDiv, .earSecondDiv
+{
+    height: 200px;
+    width: 250px;
+    background-color: purple;
+    display: inline-block;
+    padding: 25px 40px;
+}
+
+.earSecondDiv
+{
+    float: right;
+}
+
+.earAdd
+{
+    height: 150px;
+    width: 160px;
+    background-color:goldenrod;
+    display: inline-block;
+}
+
+.head
+{
+    width: 1000px;
+    height: 800px;
+    background-color: purple;
+    padding: 100px;
+}
+
+.eyeFirst, .eyeSecond
+{
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    background-color:goldenrod;
+
+    padding-top: 50px;
+}
+
+.eyeSecond
+{
+    float: right;
+}
+
+.eyeFirstAdd, .eyeSecondAdd
+{
+    width: 100px;
+    height: 150px;
+    background-color: black;
+}
+
+.eyeFirstAdd
+{
+    float: right;
+}
+
+.nose
+{
+    height: 150px;
+    width: 350px;
+    background-color:goldenrod;
+
+    margin-left: 225px;
+    margin-top: 50px;
+
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.noseFirstAdd, .noseSecondAdd
+{
+    height: 120px;
+    width: 75px;
+    background-color: pink;
+
+    display: inline-block;
+}
+
+.noseSecondAdd
+{
+    float: right;
+}
+
+.mouth
+{
+    height: 100px;
+    width: 600px;
+    background-color: brown;
+
+    margin: auto;
+    margin-top: 50px;
+}
