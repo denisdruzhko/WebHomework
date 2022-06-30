@@ -14,9 +14,13 @@ h1
 {
     margin: 20px;
 }
-.menu{
-    margin-left: 30%;
-    margin-top: 150px;
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
 }
 .list-menu{
     display: inline-block;
@@ -40,7 +44,7 @@ h1
     width: 0;
     bottom: -2px;
     left: 0;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 .list-menu:hover::after{
     width: 100%;
