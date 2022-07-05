@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+    list-style:none;
+    text-decoration: none;
+
+    border: none;
+    outline: none;
+    
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+
+    background: #274C5B;
+}
+
+.header-text{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+
+    margin-left: 30px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 200px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.itemButton{
+    display: flex;
+    justify-content: center;
+}
+
+.itemButton a{
+    background:#EFD372;
+    padding: 30px 70px;
+    font-size: 20px;
+    color: #274C5B;
+    border-radius: 16px;
+
+}
+
+.form-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-item{
+    position: relative;
+    background: #F9F8F8;
+    height: 450px;
+    width: 400px;
+
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.block-item hr{
+    display:block;            
+    background: #D4D4D4;
+    height: 1px;  
+    margin: 10px;
+}
+
+.topic-name{
+    height: 40px;
+    width: 120px;
+
+    border-radius: 10px;
+
+    color: #FFFFFF;
+    font-size: 15px;
+
+    background: #274C5B;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-item img{
+    margin: 0 30px ;
+}
+
+.item-name{
+    position: relative;
+
+    font-size: 20px;
+    color: #274C5B;
+}
+
+.price
+{
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.old-price{
+    font-weight: 400;
+    font-size: 17px;
+
+    text-decoration-line: line-through;
+
+    color: #B8B8B8;
+}
+
+.current-price{
+    font-weight: 700;
+    font-size: 18px;
+
+    color: #274C5B;
+}
