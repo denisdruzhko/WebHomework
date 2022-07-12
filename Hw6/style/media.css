@@ -1,0 +1,16 @@
+@media screen and (max-width: 1179px){
+    .form-body{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 768px){
+    .form-body{
+        flex-wrap: wrap;
+    }
+}
+    
+@media screen and (max-width: 640px){
+    .first-container h1{
+        width:auto;
+    }
+}
