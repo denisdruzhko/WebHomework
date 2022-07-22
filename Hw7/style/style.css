@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    color: rgb(255, 205, 77);
+    text-align: center;
+}
+
+section{
+    padding: 0 20px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-section{
+    background-size: cover;
+}
+
+.carousel__slide{
+    text-align: center;
+    overflow: hidden;
+}
+.carousel__dots{
+    display: none;
+}
+
+.carousel__nav{
+    position: relative;
+}
+.carousel__nav .is-prev{
+    left: 45%!important;
+    background-color:rgb(255, 205, 77);
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.carousel__nav .is-next{
+    right: 45%!important;
+    background-color:rgb(255, 205, 77);
+    border-radius: 10px;
+    margin-top: 25px;
+}
+ .carousel__button{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.block{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.block p{
+    text-align: center;
+    margin-top: 30px;
+    color: grey;
+}
+
+.block img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+
+    margin: auto;
+}
+
+.elem{
+    margin: 20px;
+    font-size: 65px;
+    color: lightgray;
+}
